@@ -1,0 +1,127 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #f9f9f9;
+
+}
+header{
+    background-color: #FFCD48;
+    display: flex;
+    min-block-size: 80px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.Titulo{
+    padding: 10px;
+    font-size: 20px;
+}
+
+.Logo{
+    display: flex;
+    align-items: center;
+}
+
+.Logo img{
+    block-size: 90px;
+    margin-inline-end: 10px;
+    border-radius: 80px;
+}
+
+.NombreEmpresa{
+     color: #f9f9f9;
+}
+
+nav a{
+    font-weight: 600;
+    padding-inline-end: 10px;
+    color:  #f9f9f9;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #0b4f6c;
+}
+
+img{
+    max-inline-size: 200px;
+    padding: 10px;
+}
+
+.Git-GitHub{
+    padding: 10px ;
+}
+p{
+    padding: 10px;
+}
+
+.git{
+    padding: 10px;
+}
+
+.github{
+    padding: 10px;
+}
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+}
+
+nav{
+    padding: 10px 0px;
+}
+
+/* ------------------ FOOTER */
+
+ /* aca se works con el Footer - Pie de Pag */
+
+/* aca se works el color de los email */
+.email{
+    color: #1900fd;
+    font-size: 14px;
+  }
+  .email-educational{
+    color:#1900fd;
+  }
+  
+  /* aca se works el color de los email */
+  .container-contact{
+    background-color: #133e5d;
+    color:#fffdfd;
+    margin:0px;
+    inline-size: 100%;
+    padding:10px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    text-align: start;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    block-size: 60px;
+  }
+  
+  /* aca se works con el footer o el pie de pag */
+  footer {
+    background-color: #133e5d;
+    color:#f9f9f9;
+    inline-size: 100%;
+    margin:0px;
+    padding:20px 20px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-align: center;
+    display: grid;
+    align-items: center;
+    font-size: 16px;
+    block-size: 80%;
+  }
+   
